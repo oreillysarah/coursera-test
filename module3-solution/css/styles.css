@@ -20,9 +20,10 @@ body {
 /** HEADER and brand**/
 .navbar{
   margin-bottom: -11px;
-}
 
+}
 #header-nav {
+  
   border: 0;
   padding:10px;
   padding-bottom: 20px;
@@ -32,12 +33,13 @@ body {
 
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
-}
 
+}
 .navbar-brand {
   padding-top: 25px;
   padding-bottom: 25px;
   float: left;
+
 }
 
 .navbar-brand a {
@@ -73,11 +75,13 @@ body {
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid black;
+
 }
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
+
 
 /* paragraph and main content*/
 .page-header{
@@ -89,10 +93,12 @@ body {
     background-color:#d3d3d3;
     text-align: center;
     margin: 0px 0 0 0;
-}
 
+    
+}
 #row{
   width: 100%
+
   }
 
 /*** extra small devices**/
