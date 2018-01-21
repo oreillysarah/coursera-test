@@ -1,99 +1,111 @@
 
-/*p{
-    background-color:#d3d3d3;
-    color:black;
+/* base styles */
+*{
+  box-sizing: border-box; 
 }
 
-.navbar-default{
-    background-color:#d3d3d3;
-    
-}
-
-#text{
-    color:black;
-}*/
+html, body {
+  margin:0px;
+  padding:0px;
+  color: black;
+  }
 
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
+  margin: 0px 0 0 0;
   font-family: 'Oxygen', sans-serif;
+  box-sizing: border-box; 
 }
 
-/** HEADER **/
+/** HEADER and brand**/
+.navbar{
+  margin-bottom: -11px;
+
+}
 #header-nav {
-  background-color: #f6b319;
-  border-radius: 0;
+  
   border: 0;
+  padding:10px;
+  padding-bottom: 20px;
+  background-color: #d3d3d3;
+  border-bottom:  2px solid black;
 }
 
-#logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
-}
-
-.navbar-brand {
-  padding-top: 25px;
-}
-
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
-}
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+
 }
-.navbar-brand p { /* Kosher cert */
-  color: #000;
-  text-transform: uppercase;
-  font-size: .7em;
-  margin-top: 15px;
-}
-.navbar-brand p span { /* Star-K */
-  vertical-align: middle;
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  float: left;
+
 }
 
+.navbar-brand a {
+  font-family: 'Lora', serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+
+}
+/* nav list*/
 #nav-list {
   margin-top: 10px;
-}
-#nav-list a {
-  color: #951C49;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: #E7E7E7;
-}
-#nav-list a span {
-  font-size: 1.8em;
+  background-color: white;
+
 }
 
-#phone {
-  margin-top: 5px;
+#nav-list a {
+  color: black;
+  text-align: center;
+  background-color: white;
+  border-bottom: 2px solid black;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+ 
 }
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
+
+#nav-list a:hover {
+  background: #d3d3d3;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid black;
+
 }
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
-/* END HEADER */
+
+
+/* paragraph and main content*/
+.page-header{
+  border-bottom: 0px solid ;
+  margin: 15px 0 0 0;
+}
+
+.paragraph{
+    background-color:#d3d3d3;
+    text-align: center;
+    height:1000px;
+    margin: 0px 0 0 0;
+    
+}
+#row{
+  width: 100%
+
+  }
+
+/*** extra small devices**/
+@media (max-width: 767px) {
+  .container-fluid{
+    margin-left: 40px;
+    margin-right:40px;}
+  }
+      
+     
